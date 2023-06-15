@@ -13,7 +13,7 @@ function addChildrens(req, res) {
     childrens.children.push(newChildrenData);
     const data = JSON.stringify(childrens)
     try {
-        fs.writeFileSync('./assets/output2.json', data);
+        fs.writeFileSync('./assets/output.json', data);
         // file written successfully
     } catch (err) {
         console.error(err);
@@ -38,7 +38,7 @@ function getChildrensByCountry(req, res) {
             return item2.country == reqCountry;
         });
     })
-    console.log('resultChildrens: ',resultChildrens)
+    res.json(resultChildrens)
 }
 
 function generate(req, res) {
