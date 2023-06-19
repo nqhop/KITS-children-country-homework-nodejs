@@ -21,7 +21,6 @@ function addChildrens(req, res) {
 
 function getChildrensByCountry(req, res) {
     const reqCountry = req.params.country;
-    console.log('reqCountry: ', reqCountry)
     console.log(childrens.children[0].children)
     console.log('---------------')
     const resultChildrens = childrens.children[0].children.map((item) => {
