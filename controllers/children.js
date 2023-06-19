@@ -7,8 +7,6 @@ function getChildrens(req, res) {
 
 function addChildrens(req, res) {
     const newChildrenData = req.body;
-    // console.log(childrens.children)
-    // console.log(childrens.children[0].children[0].children)
 
     childrens.children.push(newChildrenData);
     const data = JSON.stringify(childrens)
