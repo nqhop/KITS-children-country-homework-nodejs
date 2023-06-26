@@ -1,0 +1,3 @@
+class UniversityStudent extends Student{
+    
+}
