@@ -1,4 +1,4 @@
-package Student;
+package EmployeeSystem;
 
 public class Engineer extends Employee{
     private int salary;

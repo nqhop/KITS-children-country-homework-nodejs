@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "StudentManagement.Main",
+            "projectName": "KITS-children-country-homework-nodejs_c4dc1ea0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "ATMSystem.Main",
             "projectName": "KITS-children-country-homework-nodejs_c4dc1ea0"
         },
