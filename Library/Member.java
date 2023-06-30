@@ -12,9 +12,4 @@ public class Member {
         return "Member [name=" + name + "]";
     }
 
-    
-    
-    // public boolean borrowBooks(Book book){
-        
-    // }
 }
